@@ -1,0 +1,21 @@
+@import '../scss/main.scss';
+
+nav.navbar {
+    background-color: $ryan-blue;
+    border-bottom: 2px solid $ryan-yellow;
+    z-index: 200;
+    position: relative;
+    height: 68px;
+}
+.navbar-header {
+    margin: auto;
+    float: none;
+}
+
+.navbar a {
+    color: $ryan-white;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
